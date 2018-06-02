@@ -1,15 +1,25 @@
 #include <stdio.h>
 #include <unistd.h>
 
-int main(){
-	pid_t fork_pid;
-	fork_pid = fork();
-
+void processPrint(pid_t &fork_pid){
 	printf("pid:\t\t%d\n", getpid()); 
 	printf("ppid:\t\t%d\n", getppid()); 
 	printf("pgid:\t\t%d\n", getpgrp()); 
 	printf("sid:\t\t%d\n", getsid(getpid())); 
 	printf("fork_pid:\t%d\n", fork_pid); 
 	printf("\n");
+}
 
+int main(){
+	pid_t fork_pid;
+	fork_pid = fork();
+
+	processPrint(fork_pid);
+
+    if(fork_pid>0){
+    	setpgid(0,0);
+    	printf("setpgid success!\n");
+    }
+
+    processPrint(fork_pid);
 }
