@@ -1,4 +1,4 @@
-<p>In <b herf="https://github.com/PietaTony/C-Cpp_learn/blob/master/Process/Process.cpp">Process.cpp</b> take care this word:<blockquote cite="https://stackoverflow.com/questions/41498383/what-do-the-identifiers-pid-ppid-sid-pgid-uid-euid-mean?utm_medium=organic&utm_source=google_rich_qa&utm_campaign=google_rich_qa">
+<p>In <b href="https://github.com/PietaTony/C-Cpp_learn/blob/master/Process/Process.cpp">Process.cpp</b> take care this word:<blockquote cite="https://stackoverflow.com/questions/41498383/what-do-the-identifiers-pid-ppid-sid-pgid-uid-euid-mean?utm_medium=organic&utm_source=google_rich_qa&utm_campaign=google_rich_qa">
   PID - Process ID<br>
   PPID - Parent Process ID<br>
   SID - Session ID<br>
@@ -8,7 +8,7 @@
 </blockquote></p>
 <br>
 <p>
-  Run <b herf="https://github.com/PietaTony/C-Cpp_learn/blob/master/Process/fork_RAM_test.cpp">fork_RAM_test.cpp</b> will get result:<br>
+  Run <b href="https://github.com/PietaTony/C-Cpp_learn/blob/master/Process/fork_RAM_test.cpp">fork_RAM_test.cpp</b> will get result:<br>
   [Parent] wait child exit ...<br>
   [Child] child change global & local & malloc value!<br>
   [Child] child exit<br>
@@ -19,7 +19,7 @@
 </p><br>
 <br>
 <p>
-  Run <b herf="https://github.com/PietaTony/C-Cpp_learn/blob/master/Process/fork_file_test.cpp">fork_file_test.cpp</b> will get result:<br>
+  Run <b href="https://github.com/PietaTony/C-Cpp_learn/blob/master/Process/fork_file_test.cpp">fork_file_test.cpp</b> will get result:<br>
   5932: 1<br>
   5933: 2<br>
   5932: 3<br>
