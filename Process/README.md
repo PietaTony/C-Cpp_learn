@@ -35,4 +35,4 @@
 </p><br>
 <br>
 Reference:<br>
-Book: 深入理解Linuxt程式設計-從應用到核心 (ACL049300)<br>
+ 深入理解Linuxt程式設計-從應用到核心 (ISBN 978-986-476-416-7)<br>
