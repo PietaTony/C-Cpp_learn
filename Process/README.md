@@ -7,6 +7,7 @@
   EUID - Effective User ID<br>
 </blockquote>
 <br>
+Run Fork_RAM_test will get result:<br>
 [Parent] wait child exit ...<br>
 [Child] child change global & local & malloc value!<br>
 [Child] child exit<br>
