@@ -8,7 +8,7 @@
 </blockquote></p>
 <br>
 <p>
-  Run <b><a href="https://github.com/PietaTony/C-Cpp_learn/blob/master/Process/fork_RAM_test.cpp">fork_RAM_test.cpp</a></b> will receieve the following result:<br>
+  Run <b><a href="https://github.com/PietaTony/C-Cpp_learn/blob/master/Process/fork_RAM_test.cpp">fork_RAM_test.cpp</a></b> will receive the following result:<br>
     [Parent] wait child exit ...<br>
     [Child] child change global & local & malloc value!<br>
     [Child] child exit<br>
