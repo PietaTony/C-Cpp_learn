@@ -2,6 +2,11 @@
 #include <unistd.h>
 
 int main(){
-	int i = 0;
-    fork();
+	pid_t fork_pid;
+	fork_pid = fork();
+	printf("fork_pid:\t%d\n", fork_pid); 
+	printf("pid:\t\t%d\n", getpid()); 
+	printf("ppid:\t\t%d\n", getppid()); //father's pid
+//	printf("%d\n", fork()); 
+
 }
