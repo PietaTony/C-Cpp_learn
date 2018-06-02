@@ -26,6 +26,7 @@
     5933: 4<br>
     5932: 5<br>
     5933: 6<br>
+  <br>
   If is Multi-core to run this code will get defferent result.<br>
   In the book (see Reference p.117) will see, when use fork() have to take care of Multi-core.<br>
 </p><br>
