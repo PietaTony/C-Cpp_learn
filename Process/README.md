@@ -17,3 +17,4 @@ Run Fork_RAM_test will get result:<br>
 [Parent] m_int = 1<br>
 <br>
 Reference:<br>
+深入理解Linuxt程式設計 從應用到核心 (ISBN 978-986-476-416-7)<br>
