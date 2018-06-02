@@ -6,3 +6,12 @@
   UID - User ID<br>
   EUID - Effective User ID<br>
 </blockquote>
+<br>
+[Parent] wait child exit ...<br>
+[Child] child change global & local & malloc value!<br>
+[Child] child exit<br>
+[Parent] child have exit<br>
+[Parent] g_int = 1<br>
+[Parent] l_int = 1<br>
+[Parent] m_int = 1<br>
+<br>
