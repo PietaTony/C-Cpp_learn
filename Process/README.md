@@ -8,7 +8,7 @@
 </blockquote></p>
 <br>
 <p>
-  Run <b><a href="https://github.com/PietaTony/C-Cpp_learn/blob/master/Process/fork_RAM_test.cpp">fork_RAM_test.cpp</a></b> will receive the following result:<br>
+  On execution of <b><a href="https://github.com/PietaTony/C-Cpp_learn/blob/master/Process/fork_RAM_test.cpp">fork_RAM_test.cpp</a></b> will receive the following result:<br>
     [Parent] wait child exit ...<br>
     [Child] child change global & local & malloc value!<br>
     [Child] child exit<br>
@@ -16,10 +16,13 @@
     [Parent] g_int = 1<br>
     [Parent] l_int = 1<br>
     [Parent] m_int = 1<br>
+  <br>
+  The purpose of this file is to test whether P(Process) will affect the variables of PP(Parent Process).<br>
+  There is a total of three different variables(Global, Local, Malloc).<br>
 </p><br>
 <br>
 <p>
-  Run <b><a href="https://github.com/PietaTony/C-Cpp_learn/blob/master/Process/fork_file_test.cpp">fork_file_test.cpp</a></b> will receive the following result:<br>
+  On execution of <b><a href="https://github.com/PietaTony/C-Cpp_learn/blob/master/Process/fork_file_test.cpp">fork_file_test.cpp</a></b> will receive the following result:<br>
     5932: 1<br>
     5933: 2<br>
     5932: 3<br>
@@ -27,7 +30,7 @@
     5932: 5<br>
     5933: 6<br>
   <br>
-  Will receive different results depending on the number of cores in your CPU.<br>
+  Please note that you will receive different results depending on the number of cores in your CPU.<br>
   The reason of different results is caused by the PP(Parent Proccess) and P(Proccess) being executed at the same time.<br>
 </p><br>
 <br>
