@@ -7,7 +7,7 @@
   EUID - Effective User ID<br>
 </blockquote>
 <br>
-Run Fork_RAM_test will get result:<br>
+Run fork_RAM_test will get result:<br>
 [Parent] wait child exit ...<br>
 [Child] child change global & local & malloc value!<br>
 [Child] child exit<br>
@@ -15,6 +15,18 @@ Run Fork_RAM_test will get result:<br>
 [Parent] g_int = 1<br>
 [Parent] l_int = 1<br>
 [Parent] m_int = 1<br>
+<br>
+<br>
+Run fork_file_test will get result:<br>
+5932: 1<br>
+5933: 2<br>
+5932: 3<br>
+5933: 4<br>
+5932: 5<br>
+5933: 6<br>
+If is Multi-core to run this code will get defferent result.<br>
+In the book (see Reference p.117) will see, when use fork() have to take care of Multi-core.<br>
+<br>
 <br>
 Reference:<br>
 Book: 深入理解Linuxt程式設計-從應用到核心 (ACL049300)<br>
