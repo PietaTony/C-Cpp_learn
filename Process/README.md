@@ -34,5 +34,29 @@
   The reason of different results is caused by the PP(Parent Proccess) and P(Proccess) being executed at the same time.<br>
 </p><br>
 <br>
+<p><table border="2">
+<tbody><tr align="CENTER"><td><code><b>wait()</b></code></td><td><code><b>waitpid()</b></code></td></tr>
+<tr>
+<td width="50%"><code>wait</code> blocks the caller until a child process terminates</td>
+<td width="50%"><br><code>waitpid</code> can be either blocking or non-blocking:
+                          <ul><li>If <i>options</i> is 0, then it is blocking
+                              </li><li>If <i>options</i> is WNOHANG, then is it non-blocking
+                          </li></ul></td>
+</tr>
+<tr>
+<td width="50%">if more than one child is running then <code>wait()</code> returns the first time one of the parent's offspring exits</td>
+<td width="50%"><br><code>waitpid</code> is more flexible:
+<p>
+    </p><ul>
+    <li>If <i>pid == -1</i>, it waits for any child process.  In this respect, 
+        <code>waitpid</code> is equivalent to <code>wait</code>
+    </li><li>If <i>pid &gt; 0</i>, it waits for the child whose process ID equals pid
+    </li><li>If <i>pid == 0</i>, it waits for any child whose process group ID equals that
+        of the calling process
+    </li><li>If <i>pid &lt; -1</i>, it waits for any child whose process group ID equals that absolute value of pid
+    </li></ul></td>
+</tr>
+</tbody></table>
+<br>
 Reference:<br>
  深入理解Linuxt程式設計-從應用到核心 (ISBN 978-986-476-416-7)<br>
